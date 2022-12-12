@@ -1,0 +1,17 @@
+max number of resumes to uploads: 10000 (extendable)
+.post(upload.array('filefield', 10000), (req, res) => {
+
+- no timestamps
+
+- sucess
+
+- no doc fileformat, only pdf and docx
+(ShellError: The command `antiword /content/drive/MyDrive/resumes/Amr+Najip.doc` failed because the executable
+`antiword` is not installed on your system. Please make
+sure the appropriate dependencies are installed before using
+textract)
+
+20
+
+
+try catch for textract
